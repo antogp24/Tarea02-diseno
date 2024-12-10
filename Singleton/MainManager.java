@@ -1,10 +1,21 @@
 package singleton;
 
+import com.sun.tools.javac.Main;
+
+import java.sql.SQLOutput;
+
 public class MainManager {
+    private static MainManager instance;
     private static ReservacionManager reservacionManager = ReservacionManager.getInstance();
     private static IncidenteManager incidenteManager = IncidenteManager.getInstance();
     private static NotificadorManager notificadorManager = NotificadorManager.getInstance();
     private static AgregadorServicioManager agregador = AgregadorServicioManager.getInstance();
+
+    private MainManager(){}
+
+    public static MainManager getInstance(){
+        return instance;
+    }
 
     public static ReservacionManager getReservacionManager() {
         return reservacionManager;
@@ -19,6 +30,8 @@ public class MainManager {
     }
 
     public void execute() {
-        // ...
+        System.out.println("Sistema operando");
+        System.out.println("Inicie sesion");
+        System.out.println("Esperando las reservaciones de usuario");
     }
 }
