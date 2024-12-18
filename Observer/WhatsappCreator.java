@@ -1,4 +1,5 @@
-package Observer;
+package observer;
+
 import model.*;
 
 public abstract class WhatsappCreator {

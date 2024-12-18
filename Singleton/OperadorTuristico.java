@@ -1,4 +1,5 @@
-package Singleton;
+package singleton;
+
 import model.Incidente;
 
 public class OperadorTuristico implements ManejadorIncidentes {

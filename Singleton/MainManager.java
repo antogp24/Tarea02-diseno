@@ -1,8 +1,10 @@
-package Singleton;
+package singleton;
 
 import com.sun.tools.javac.Main;
+
+import observer.*;
+
 import java.sql.SQLOutput;
-import Observer.*;
 
 
 public class MainManager {

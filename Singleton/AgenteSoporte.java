@@ -1,4 +1,5 @@
-package Singleton;
+package singleton;
+
 import model.*;
 
 public class AgenteSoporte implements ManejadorIncidentes {
