@@ -2,6 +2,8 @@ package composite;
 
 import java.util.List;
 
+import model.Reservacion;
+
 public class PaqueteTuristico {
     List<Reservacion> paquete;
     List<Adicional> adicionales;

@@ -1,5 +1,7 @@
 package composite;
 
+import model.Reservacion;
+
 public class ReservacionHotel implements Reservacion {
     protected int numCamas;
     protected String estado;

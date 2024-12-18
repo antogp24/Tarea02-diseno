@@ -1,4 +1,6 @@
-package factorymethod;
+package model;
+
+import composite.ReservacionHotel;
 
 public class ReservacionEstandar extends ReservacionHotel {
     // Algún atributo

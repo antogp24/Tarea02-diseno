@@ -1,15 +1,32 @@
-package factorymethod;
+package factory;
+
+import model.Reservacion;
+import model.*;
 
 public class ReservaPaseoFactory implements ReservaFactory {
-    @Override
-    public Reserva generar() {
-    }
 
-    public PaseoAventura reservarPaseoAventura() {
+    @Override
+    public Reservacion reservarAventura() {
         return new PaseoAventura();
     }
 
-    public PaseoCultural reservarPaseoCultural() {
+    @Override
+    public Reservacion reservarEstandar() {
+        return new PaseoEstandar();
+    }
+
+    @Override
+    public Reservacion reservarFamiliar() {
+        return new PaseoFamiliar();
+    }
+
+    @Override
+    public Reservacion reservarSuite() {
+        return new PaseoSuite();
+    }
+
+    @Override
+    public Reservacion reservarCultural() {
         return new PaseoCultural();
     }
 }

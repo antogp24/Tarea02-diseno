@@ -1,19 +1,35 @@
-package factorymethod;
+package factory;
+
+import model.Reservacion;
+import model.ReservacionCultural;
+import model.ReservacionEstandar;
+import model.ReservacionFamiliar;
+import model.ReservacionSuite;
 
 public class ReservaHotelFactory implements ReservaFactory {
-    @Override
-    public Reserva generar() {
-    }
 
-    public ReservacionEstandar reservarEstandar() {
+    @Override
+    public Reservacion reservarAventura() {
         return new ReservacionEstandar();
     }
 
-    public ReservacionFamiliar reservarFamiliar() {
+    @Override
+    public Reservacion reservarEstandar() {
+        return new ReservacionEstandar();
+    }
+
+    @Override
+    public Reservacion reservarFamiliar() {
         return new ReservacionFamiliar();
     }
 
-    public ReservacionSuite reservarSuite() {
+    @Override
+    public Reservacion reservarSuite() {
         return new ReservacionSuite();
+    }
+
+    @Override
+    public Reservacion reservarCultural() {
+        return new ReservacionCultural();
     }
 }

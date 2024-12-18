@@ -1,5 +1,11 @@
-package factorymethod;
+package factory;
+
+import model.Reservacion;
 
 public interface ReservaFactory {
-    Reservacion generar();
+    Reservacion reservarAventura();
+    Reservacion reservarEstandar();
+    Reservacion reservarFamiliar();
+    Reservacion reservarSuite();
+    Reservacion reservarCultural();
 }

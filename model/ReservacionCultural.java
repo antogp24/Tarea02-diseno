@@ -1,4 +1,6 @@
-package factorymethod;
+package model;
+
+import composite.ReservacionPaseo;
 
 public class ReservacionCultural extends ReservacionPaseo {
     // Algún atributo
