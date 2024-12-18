@@ -1,4 +1,4 @@
-package singleton;
+//package singleton;
 
 import java.util.List;
 

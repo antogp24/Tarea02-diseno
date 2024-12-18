@@ -1,4 +1,5 @@
-package singleton;
+package Singleton;
+import model.*;
 
 public class IncidenteManager {
     private static IncidenteManager instance = new IncidenteManager();
