@@ -1,4 +1,4 @@
-package composite;
+package model;
 
 public interface Reservacion {
     void confirmar();

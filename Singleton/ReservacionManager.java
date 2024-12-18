@@ -1,4 +1,5 @@
-package singleton;
+package Singleton;
+import model.*;
 
 public class ReservacionManager {
     private static ReservacionManager instance = new ReservacionManager();

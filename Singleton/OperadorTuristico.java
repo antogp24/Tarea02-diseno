@@ -1,4 +1,5 @@
-package singleton;
+package Singleton;
+import model.Incidente;
 
 public class OperadorTuristico implements ManejadorIncidentes {
     private String datosOperador;
@@ -8,7 +9,6 @@ public class OperadorTuristico implements ManejadorIncidentes {
         // ...
     }
 
-    @Override
     public boolean puedeManejar(Incidente incidente) {
         return true;
     }

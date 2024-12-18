@@ -1,4 +1,5 @@
-package singleton;
+package Singleton;
+import model.*;
 
 import java.util.HashMap;
 

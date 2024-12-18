@@ -1,4 +1,5 @@
-package observer;
+package Observer;
+import model.*;
 
 public class NotificadorManager {
     private static NotificadorManager instance = new NotificadorManager();

@@ -1,11 +1,9 @@
-package observer;
+package Observer;
+import model.*;
 
 public abstract class CorreoCreator {
     private String receptor;
     private String mensaje;
 
-    @Override
-    public Notificacion crearNotificacion(String receptor, String mensaje) {
-        // ...
-    }
+    public abstract Notification crearNotificacion(String receptor, String mensaje);
 }

@@ -9,7 +9,6 @@ public class AgenteSoporte implements ManejadorIncidentes {
         // ...
     }
 
-    @Override
     public boolean puedeManejar(Incidente incidente) {
         return true;
     }
