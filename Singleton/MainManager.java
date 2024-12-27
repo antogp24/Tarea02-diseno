@@ -8,7 +8,7 @@ import java.sql.SQLOutput;
 
 
 public class MainManager {
-    private static MainManager instance;
+    private static MainManager instance = new MainManager();
     private static ReservacionManager reservacionManager = ReservacionManager.getInstance();
     private static IncidenteManager incidenteManager = IncidenteManager.getInstance();
     private static NotificadorManager notificadorManager = NotificadorManager.getInstance();
