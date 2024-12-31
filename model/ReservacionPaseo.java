@@ -1,5 +1,6 @@
-package composite;
+package model;
 
+import composite.Reservacion;
 import observer.NotificadorManager;
 
 public class ReservacionPaseo implements Reservacion {
@@ -34,16 +35,7 @@ public class ReservacionPaseo implements Reservacion {
         this.correoUsuario = correoUsuario;
     }
 
-    @Override
     public double getPrecio() {
         return precio;
     }
-
-    public String getEstado() {
-        return estado;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-}
+} 

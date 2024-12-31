@@ -1,8 +1,8 @@
 package singleton;
 
-import model.*;
+import model.Incidente;
 
 public interface ManejadorIncidentes {
-
-    public void manejar(Incidente incidente);
+    boolean puedeManejar(Incidente incidente);
+    void manejar(Incidente incidente);
 }

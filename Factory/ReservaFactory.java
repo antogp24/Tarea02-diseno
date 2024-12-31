@@ -1,6 +1,6 @@
 package factory;
 
-import model.Reservacion;
+import composite.Reservacion;
 
 public interface ReservaFactory {
     Reservacion reservarAventura();

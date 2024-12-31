@@ -1,16 +1,15 @@
 package singleton;
 
-import model.*;
+import model.Incidente;
 
 public class OperadorHotel implements ManejadorIncidentes {
-    private String datosHotel;
+    @Override
+    public boolean puedeManejar(Incidente incidente) {
+        return incidente.getTipo().equals("hotel");
+    }
 
     @Override
     public void manejar(Incidente incidente) {
-        // ...
-    }
-
-    public boolean puedeManejar(Incidente incidente) {
-        return true;
+        // Implementation for handling hotel incidents
     }
 }

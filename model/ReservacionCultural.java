@@ -3,6 +3,7 @@ package model;
 import composite.ReservacionPaseo;
 
 public class ReservacionCultural extends ReservacionPaseo {
-    // Algún atributo
-    // Algún método específico
+    public ReservacionCultural() {
+        super("cultural", 80.0);  // Default values for cultural tour
+    }
 }

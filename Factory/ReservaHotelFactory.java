@@ -1,6 +1,6 @@
 package factory;
 
-import model.Reservacion;
+import composite.Reservacion;
 import model.ReservacionCultural;
 import model.ReservacionEstandar;
 import model.ReservacionFamiliar;

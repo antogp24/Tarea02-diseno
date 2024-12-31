@@ -1,6 +1,6 @@
 package factory;
 
-import model.Reservacion;
+import composite.Reservacion;
 import model.*;
 
 public class ReservaPaseoFactory implements ReservaFactory {
